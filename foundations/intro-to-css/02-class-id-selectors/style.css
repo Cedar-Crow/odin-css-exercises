@@ -5,3 +5,12 @@
 .odd-number.special {
     font-size: 24px;
 }
+#Number2 {
+    color: hsl(240, 66%, 41%);
+    font-size: 36px;
+}
+#Number4 {
+    background-color: hsl(130, 78%, 66%);
+    font-size: 24px;
+    font-weight: bold;
+}
