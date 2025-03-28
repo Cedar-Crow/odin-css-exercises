@@ -7,11 +7,11 @@
 
 .logo {
   font-size: 48px;
-  font-weight: 900;
+  font-weight: bolder;
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: auto;
+  margin: 8px auto;
   
 }
 
@@ -19,8 +19,8 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
-  gap: 12px;
-  margin: 20px;
+  gap: 16px;
+  margin: 8px;
   padding: 0;
 }
 
