@@ -2,6 +2,19 @@ body {
   font-family: 'Courier New', Courier, monospace;
 }
 
+.plants-box {
+  display: flex;
+  justify-content: center;
+  gap: 52px;
+}
+
+.plant-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+}
+
 img {
   width: 100px;
   height: 100px;
@@ -14,13 +27,6 @@ img {
 
 .text {
   text-align: center;
-}
-
-.plant-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 200px;
 }
 
 /* do not edit this footer */
