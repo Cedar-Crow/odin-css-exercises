@@ -23,6 +23,10 @@ body {
   gap: 16px;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .logo {
   color: rebeccapurple;
   font-size: 32px;
@@ -35,6 +39,7 @@ ul {
   display: flex;
   gap: inherit; 
   padding: 0;
+  flex-wrap: wrap;
 }
 
 a {
