@@ -6,6 +6,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 52px;
+  margin: 32px 0;
 }
 
 .plant-item {
@@ -25,7 +26,7 @@ img {
   font-weight: 900;
 }
 
-.text {
+.text, .title {
   text-align: center;
 }
 
