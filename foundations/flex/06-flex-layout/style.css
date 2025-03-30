@@ -11,10 +11,22 @@ img {
   width: 600px;
 }
 
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.footer {
+  background-color: #eee;
+}
+
 ul {
   list-style-type: none;
   display: flex;
   gap: 16px;
+  padding: 0;
+  margin: 0;
 }
 
 a {
