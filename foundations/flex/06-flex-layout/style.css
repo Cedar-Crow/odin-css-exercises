@@ -11,6 +11,17 @@ img {
   width: 600px;
 }
 
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 33%);
+}
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
@@ -24,3 +35,4 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+ 
