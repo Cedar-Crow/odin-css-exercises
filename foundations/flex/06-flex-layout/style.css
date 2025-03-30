@@ -5,11 +5,16 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container {
+  flex: 1 0 auto;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -29,7 +34,7 @@ img {
 ul {
   list-style-type: none;
   display: flex;
-  gap: 16px;
+  gap: 24px;
   padding: 0;
   margin: 0;
 }
