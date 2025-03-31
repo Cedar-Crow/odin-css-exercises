@@ -27,6 +27,21 @@ body {
   flex: 0 0 auto;
 }
 
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 12px 24px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
+
 .main-content {
   display: flex;
   flex-wrap: wrap;
